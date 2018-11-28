@@ -8,9 +8,9 @@
       "resolved": "https://registry.npmjs.org/abbrev/-/abbrev-1.1.0.tgz"
     },
     "acorn": {
-      "version": "5.1.1",
-      "from": "acorn@>=5.0.1 <6.0.0",
-      "resolved": "https://registry.npmjs.org/acorn/-/acorn-5.1.1.tgz",
+      "version": "6.0.4",
+      "from": "acorn@>=6.0.4 <6.0.5",
+      "resolved": "https://registry.npmjs.org/acorn/-/acorn-6.0.4.tgz",
       "dev": true
     },
     "acorn-dynamic-import": {

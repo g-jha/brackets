@@ -29,8 +29,8 @@ define(function (require, exports, module) {
 
     var _          = require("thirdparty/lodash"),
         Acorn      = require("thirdparty/acorn/dist/acorn"),
-        AcornLoose = require("thirdparty/acorn/dist/acorn_loose"),
-        ASTWalker  = require("thirdparty/acorn/dist/walk");
+        AcornLoose = require("../node_modules/acorn-loose/dist/acorn-loose"),
+        ASTWalker  = require("../node_modules/acorn-walk/dist/walk");
 
     // Load brackets modules
     var CodeMirror              = require("thirdparty/CodeMirror/lib/codemirror"),

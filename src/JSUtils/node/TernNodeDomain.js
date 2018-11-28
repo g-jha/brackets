@@ -232,7 +232,7 @@ function buildRequest(fileInfo, query, offset) {
     if (fileInfo.type !== MessageIds.TERN_FILE_INFO_TYPE_EMPTY) {
         // Create a copy to mutate ahead
         var fileInfoCopy = JSON.parse(JSON.stringify(fileInfo));
-        request.files.push(fileInfoCopy);
+        //request.files.push(fileInfoCopy);
     }
 
     return request;
@@ -250,7 +250,9 @@ function buildRequest(fileInfo, query, offset) {
  * file for cursor
  */
  function getRefs(fileInfo, offset) {
-    var request = buildRequest(fileInfo, "refs", offset);
+         var pos = { ch: 14, line : 70, sticky : "after", xRel: 3};
+    var request = buildRequest(fileInfo, "refs", pos);
+    //request.query.newName = "afsgdhtdhfgfglmhf";
     try {
         ternServer.request(request, function (error, data) {
             if (error) {

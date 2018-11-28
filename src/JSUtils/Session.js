@@ -33,7 +33,7 @@ define(function (require, exports, module) {
         HintUtils       = require("JSUtils/HintUtils"),
         ScopeManager    = require("JSUtils/ScopeManager"),
         Acorn           = require("node_modules/acorn/dist/acorn"),
-        Acorn_Loose     = require("node_modules/acorn/dist/acorn_loose");
+        Acorn_Loose     = require("../node_modules/acorn-loose/dist/acorn-loose");
 
     /**
      * Session objects encapsulate state associated with a hinting session

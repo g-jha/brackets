@@ -24,7 +24,7 @@
 define(function(require, exports, module) {
     'use strict';
 
-    var ASTWalker           = brackets.getModule("thirdparty/acorn/dist/walk"),
+    var ASTWalker           = brackets.getModule("node_modules/acorn-walk/dist/walk"),
         EditorManager       = brackets.getModule("editor/EditorManager"),
         _                   = brackets.getModule("thirdparty/lodash"),
         StringUtils         = brackets.getModule("utils/StringUtils"),

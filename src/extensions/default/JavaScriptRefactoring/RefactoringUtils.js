@@ -28,10 +28,10 @@ define(function (require, exports, module) {
     'use strict';
 
     var Acorn         = brackets.getModule("thirdparty/acorn/dist/acorn"),
-        ASTWalker     = brackets.getModule("thirdparty/acorn/dist/walk"),
+        ASTWalker     = brackets.getModule("node_modules/acorn-walk/dist/walk"),
         MessageIds    = brackets.getModule("JSUtils/MessageIds"),
         _             = brackets.getModule("thirdparty/lodash"),
-        AcornLoose    = brackets.getModule("thirdparty/acorn/dist/acorn_loose"),
+        AcornLoose    = brackets.getModule("node_modules/acorn-loose/dist/acorn-loose"),
         ScopeManager  = brackets.getModule("JSUtils/ScopeManager");
 
 
